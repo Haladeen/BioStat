@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Biostat</string>
+    <string name="action_settings" translatable="false">Informations</string>
+    <string name="question">Questions sur le cours de Biostatistiques</string>
+    <string name="editText" />
+    <string name="points">0/0</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+    <TextView
+        android:id="@+id/titre"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informations"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/cours"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cours : Cours de Biostatistiques de Mme. Verhoeven MEDI-1, VETE-2 et DENT-2"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffff" />
+    <TextView
+        android:id="@+id/contact"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts : nathan.rossler@skynet.be, +32470302495, Nathan Rossler via facebook"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffff" />
+    <TextView
+        android:id="@+id/dev"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Développement : Ilan Rossler (Java/Swift), Nathan Rossler (XML/Swift)"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffff" />
+
+</LinearLayout>
